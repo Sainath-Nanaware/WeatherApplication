@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p id="heading">"Check your city weather"</p>
+    <div class="main-container">
+      <div class="search">
+        <input type="text" placeholder="Enter your city name" />
+        <button>Search</button>
+        <p>2025-01-01 13:20</p>
+      </div>
+      <div class="city">
+        <img
+          src="https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png"
+          alt=""
+        />
+        <p>Pune, India</p>
+      </div>
+      <!-- weather-data -->
+      <div class="weather-data">
+        <div class="lhs-data">
+          <p>Weather:Sunny</p>
+          <p>Temprature:25</p>
+          <p>Humidity:31</p>
+        </div>
+        <div class="rhs-data">
+          <p>Wind speed:12</p>
+          <p>Wind Degree:25</p>
+          <p>Wind Direction:ENE</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
