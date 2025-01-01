@@ -24,7 +24,7 @@ searchBtn.addEventListener("click", () => {
   async function getCityWeather(cityName) {
     try {
       const resp = await fetch(
-        `https://api.weatherstack.com/current?access_key=b3f8e08af22d4887c84c91e7a7a21232&query=${cityName}`
+        `https://api.weatherstack.com/current?access_key=ee4c71db3f42613346778081ee11b9c5&query=${cityName}`
       );
       const respData = await resp.json();
       console.log(respData);
@@ -48,3 +48,5 @@ searchBtn.addEventListener("click", () => {
 });
 
 // getCityWeather();
+// token1=ee4c71db3f42613346778081ee11b9c5
+// token2=b3f8e08af22d4887c84c91e7a7a21232

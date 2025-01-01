@@ -20,7 +20,10 @@ body{
     gap: 24px;
 }
 #heading{
+    color:#1a1f71;
     font-size: 32px;
+    font-weight: 500;
+    border-bottom: 1px solid black;
 }
 .main-container{
     background-color: #ffff;
