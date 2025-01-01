@@ -15,6 +15,7 @@ searchBtn.addEventListener("click", () => {
   var cityName;
   if (city.value == "") {
     alert("Please enter city name.");
+    return false;
   } else {
     cityName = city.value;
     city.value = "";
